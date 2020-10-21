@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "Karla";
+    src: url(../ressources/font-family/Karla-Regular.ttf) format(ttf);
+}
+@font-face{
+    font-family: "Bold Karla";
+    src: url(../ressources/font-family/Karla-Bold.ttf);
+}
+.dollar{
+    font-family: "Bold Karla";
+    font-size: 30px;
+}
+h1, h2, p {
+    font-family:"Karla" , sans-serif;
+    font-weight:normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 22px;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    margin: 0 auto;
+    padding-top : 70px;
+    width:50%;
+
+}
+
+.wrapper {
+    box-shadow: 8px 12px 8px #aaa;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    align-content: center;
+    line-height:20px;
+    border-radius: 12px;
+    
+}
+.signe{
+    border: 1px solid hsl(71, 73%, 54%);
+    background-color:  hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Bold Karla";
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 7px 0px 7px 0px;
+}
+.community{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    background-color: hsl(0,0%,97%);
+    padding: 22px 30px 5px 42px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.sub{
+    color:white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 12px;
+    padding: 22px 30px 5px 42px;
+}
+
+.why{
+    color:white;
+    border-radius: 0px 0px 12px 0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    background-color: hsl(179, 50%, 50%);
+    padding: 22px 30px 5px 42px;
+    
+
+}
